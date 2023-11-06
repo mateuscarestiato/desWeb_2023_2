@@ -32,7 +32,6 @@ const pegar_coisas = async (caminho) => {
     return dados;
 }
 
-
 pegar_coisas(`${url}/${numero_jogador}`).then(
     (entrada) => preenche(entrada)
 );
